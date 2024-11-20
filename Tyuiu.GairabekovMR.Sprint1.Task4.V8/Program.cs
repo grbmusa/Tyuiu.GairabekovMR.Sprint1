@@ -7,7 +7,7 @@ namespace Tyuiu.GairabekovMR.Sprint1.Task4.V8
         static void Main(string[] args)
         {
             DataService ds = new DataService();
-            Console.Title = "Спринт #1 | Выполнил: Гайрабеков М.Р | ИИПб-2ч-2";
+            Console.Title = "Спринт #1 | Выполнил: Гайрабеков М.Р. | ИИПб-2ч-2";
             Console.WriteLine("*********************************************************");
             Console.WriteLine("* Спринт #1                                             *");
             Console.WriteLine("* Тема: Class Math                                      *");
