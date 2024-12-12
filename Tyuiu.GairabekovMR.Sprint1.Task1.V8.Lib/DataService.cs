@@ -1,17 +1,11 @@
 ﻿using tyuiu.cources.programming.interfaces.Sprint1;
-
-namespace Tyuiu.GairabekovMR.Sprint1.Task1.V8.Lib
+namespace Tyuiu.GairabekovMR.Sprint1.Task4.V8.Lib
 {
-    public class DataService : ISprint1Task1V8
+    public class DataService : ISprint1Task4V8
     {
-        public double Calculate(double a, double x)
+        public double Calculate(double x, double y)
         {
-            if (a == 0)
-            {
-                throw new ArgumentException("A не может быть равен нулю");
-            }
-
-            return 3.14; // Возвращаем строгое значение 3.14
+            return Math.Round((Math.Sqrt(Math.Abs(x - y)) + 3 * x) / (3 + Math.Abs(x)), 3);
         }
     }
 }
